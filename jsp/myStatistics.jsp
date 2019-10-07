@@ -40,7 +40,7 @@
 
 <!-- Top container -->
 <div class="w3-bar w3-top w3-large md-background2" style="z-index:4">
-  <button class="w3-bar-item w3-button w3-hide-large w3-hover-none" onclick="to_back();"><i class="fa fa-arrow-left"ll></i></button>
+  <button class="w3-bar-item w3-button w3-hide-large w3-hover-none" onclick="to_back();"><i class="fa fa-arrow-left"></i></button>
   <b><span class="w3-bar-item w3-left">My 기부통계 내역</span></b>
 </div>
 
