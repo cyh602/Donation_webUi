@@ -69,11 +69,18 @@ jQuery(function() {
 
     //충전내역 collapse
     $('.chargeList li a').on('click',function(){
+
         if($(this).siblings('.dataList').css('display') == 'none'){
             $('.chargeList li').removeClass('on');
             $('.chargeList li .dataList').slideUp();
             $(this).parent('li').addClass('on');
             $(this).siblings('.dataList').slideDown();
+
+            console.log("ui   ");
+            $('html,body').animate({
+              scrollTop: $('.chargeList li .dataList li').offset().top
+            }, 500);
+
         }else{
             $(this).parent('li').removeClass('on');
             $(this).siblings('.dataList').slideUp();
